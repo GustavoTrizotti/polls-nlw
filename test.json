@@ -1,0 +1,6 @@
+{
+  "statusCode": 500,
+  "code": "P2003",
+  "error": "Internal Server Error",
+  "message": "\nInvalid `prisma.vote.create()` invocation in\nc:\\Users\\GustavoTrizotti\\Documents\\Projetos\\polls\\src\\http\\routes\\vote-on-poll.ts:51:23\n\n  48   });\n  49 }\n  50 \n→ 51 await prisma.vote.create(\nForeign key constraint failed on the field: `Vote_pollOptionId_fkey (index)`"
+}
